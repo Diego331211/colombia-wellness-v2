@@ -1,5 +1,10 @@
 import Hero from "./components/Hero";
 import DataSections from "./components/datasections";
+import CitySection from "./components/citysection";
+import CounterSection from "./components/counter-section";
+import EventTimeline from "./components/timeline";
+import SponsorshipTiers from "./components/sponsor-ships";
+import EndSection from "./components/end";
 
 export default function Home() {
   return (
@@ -17,7 +22,11 @@ export default function Home() {
       <div className="relative">
         <Hero />
         <DataSections />
-        {/* Aquí irán los demás componentes */}
+        <CitySection />
+        <CounterSection />
+        <EventTimeline />
+        <SponsorshipTiers />
+        <EndSection />
       </div>
     </>
   );
