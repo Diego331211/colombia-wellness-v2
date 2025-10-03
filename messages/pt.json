@@ -1,0 +1,175 @@
+{
+  "common": {
+    "BecomeSponsor": "Torne-se patrocinador",
+    "Register": "Seja o primeiro a saber!",
+    "comingSoon": "Em breve",
+    "eventName": "COLOMBIA WELLNESS WEEK 2025",
+    "eventTagline": "A Semana Mais Importante do Bem-Estar na LATAM",
+    "eventDates": "12-14 de Novembro | Bogotá, Colombia",
+    "navHome": "Início",
+    "navAbout": "Sobre",
+    "navContact": "Contato",
+    "footerText": "Todos os direitos reservados",
+    "footerDisclaimer": "Um evento único que posiciona a Colômbia como o epicentro do bem-estar.",
+    "contactName": "Fabian Garzón, Co-fundador",
+    "contactEmail": "info@colombiawellnessweek.com",
+    "contactWebsite": "www.colombiawellnessweek.com",
+    "contactSocial": "@ColombiaWellnessWeek",
+    "EnterEmail": "e-mail",
+    "ourSponsors": "Nossos patrocinadores",
+    "ourPartners": "Nossos aliados",
+    "heroTitle": "Semana do Bem-Estar da Colômbia",
+    "heroSubtitle": "12–14 de novembro | Bogotá, Colômbia",
+    "moreInformation": "Mais informações",
+    "bienestar": {
+      "physical": "Bem-estar Físico",
+      "mental": "Bem-estar Mental",
+      "emotional": "Bem-estar Emocional",
+      "social": "Bem-estar Social",
+      "financial": "Bem-estar Financeiro",
+      "spiritual": "Bem-estar Espiritual",
+      "occupational": "Bem-estar Ocupacional",
+      "environmental": "Bem-estar Ambiental"
+    }
+  },
+  "epicenter": {
+    "title": "COLÔMBIA: O NOVO ",
+    "titleHighlight": "EPICENTRO DO BEM-ESTAR",
+    "statsTitle": "Investimento em Bem-Estar por País",
+    "stats1Number": "TOP 3",
+    "stats1Text": "na América Latina em turismo de bem-estar",
+    "stats1Source": "(Global Wellness Institute, 2023)",
+    "stats2Number": "+500",
+    "stats2Text": "eventos anuais de saúde e bem-estar no país",
+    "stats3Number": "30%",
+    "stats3Text": "Crescimento acelerado em turismo e experiências de bem-estar",
+    "colombiaStat": "30%",
+    "mexicoStat": "25%",
+    "costaRicaStat": "20%",
+    "brasilStat": "15%",
+    "peruStat": "10%",
+    "foreignInvestment": "+30% dos investimentos em bem-estar na Colômbia vêm de capital estrangeiro."
+  },
+  "cities": {
+    "title": "CIDADES PARTICIPANTES",
+    "bogota": "Bogotá"
+  },
+  "counter": {
+    "title": "A SEMANA MAIS IMPORTANTE DO BEM-ESTAR NA AMÉRICA LATINA",
+    "assistants": "Participantes",
+    "assistantsText": "Empreendedores, investidores, especialistas em bem-estar e saúde.",
+    "allies": "Aliados do ecossistema",
+    "alliesText": "Startups de bem-estar, investidores, aceleradoras, governo, corporações.",
+    "startups": "Startups de bem-estar",
+    "startupsText": "Da América Latina e Europa participando do evento.",
+    "years": "Anos de experiência",
+    "yearsText": "Inspirando empreendedores com formatos de conexão e troca de conhecimento."
+  },
+  "events": {
+    "march": "Março",
+    "april": "Abril",
+    "june": "Junho",
+    "july": "Julho",
+    "september": "Setembro",
+    "november": "Novembro"
+  },
+  "sections": {
+    "retreatsAndConferences": {
+      "title": "Retiros e Conferências",
+      "items": [
+        "Retiros de yoga e meditação",
+        "Conferências com especialistas em saúde e bem-estar",
+        "Networking com investidores internacionais"
+      ]
+    },
+    "startupsAndBusiness": {
+      "title": "Startups e Negócios",
+      "items": [
+        "Demo days de startups de bem-estar",
+        "Missão de startups internacionais",
+        "Rodada de negócios com investidores"
+      ]
+    }
+  },
+  "tiers": {
+    "title": "NÍVEIS DE PATROCÍNIO",
+    "features": [
+      "Slot de Conferência Magistral (15 min)",
+      "Participação em Painel",
+      "Logo no Palco Principal e Branding",
+      "Logo na Web e App",
+      "Passes VIP (Jantar + Lounge)",
+      "Passes de Acesso Completo",
+      "Publicações Dedicadas nas Redes",
+      "Email Masivo para Base de Dados",
+      "Acesso à Base de Dados de Participantes",
+      "Tamanho do Stand (m²)",
+      "Branding em Áreas de Networking"
+    ],
+    "packages": {
+      "diamond": {
+        "name": "Diamante",
+        "price": "$25K",
+        "values": ["✓", "✓", "Grande", "Home", "10", "20", "5", "2", "✓", "18", "✓"]
+      },
+      "gold": {
+        "name": "Ouro",
+        "price": "$15K",
+        "values": ["-", "✓", "Médio", "Home", "6", "15", "3", "1", "✓", "12", "✓"]
+      },
+      "silver": {
+        "name": "Prata",
+        "price": "$8K",
+        "values": ["-", "✓", "✓", "✓", "4", "10", "2", "1", "✓", "9", "-"]
+      },
+      "bronze": {
+        "name": "Bronze",
+        "price": "$5K",
+        "values": ["-", "-", "✓", "✓", "2", "5", "1", "-", "✓", "6", "-"]
+      },
+      "community": {
+        "name": "Comunidade",
+        "price": "$2K",
+        "values": ["-", "-", "-", "✓", "2", "2", "-", "-", "✓", "3", "-"]
+      }
+    },
+    "note": "✓ = Incluído no pacote"
+  },
+  "endSection": {
+    "title": "TORNAR A COLÔMBIA O EPICENTRO DO BEM-ESTAR NA AMÉRICA LATINA",
+    "description": "✨ Participe do evento que posicionará a Colômbia como o principal destino de bem-estar na América Latina.",
+    "register": "Registrar-se"
+  },
+  "register": {
+    "registerTitle": "Cadastre-se para Colômbia Wellness Week 2025",
+    "registerSubtitle": "Preencha seus dados e seja o primeiro a saber das novidades.",
+    "fullNameLabel": "Nome completo",
+    "fullNamePlaceholder": "Seu nome completo",
+    "emailLabel": "Email",
+    "emailPlaceholder": "seuemail@exemplo.com",
+    "phoneLabel": "Número de telefone",
+    "phonePlaceholder": "5521987654321",
+    "cityLabel": "Cidade de residência",
+    "cityPlaceholder": "Rio de Janeiro",
+    "interestsLabel": "Interesses em bem-estar",
+    "interestsPlaceholder": "Fitness, nutrição, mindfulness...",
+    "registerCta": "Cadastre-se"
+  },
+  "sponsors": {
+    "sponsorsTitle": "Inscrição para Patrocinadores",
+    "sponsorsSubtitle": "Preencha as informações abaixo para ser considerado como patrocinador.",
+    "companyNameLabel": "Nome da Empresa",
+    "companyNamePlaceholder": "Ex.: MinhaEmpresa Ltda.",
+    "representativeNameLabel": "Nome do Representante",
+    "representativeNamePlaceholder": "Ex.: João Silva",
+    "representativeRoleLabel": "Cargo na Empresa",
+    "representativeRolePlaceholder": "Ex.: Diretor de Marketing",
+    "contactEmailLabel": "Email para Contato",
+    "contactEmailPlaceholder": "email@minhaempresa.com",
+    "contactPhoneLabel": "Telefone para Contato",
+    "contactPhonePlaceholder": "55 11 1234 5678",
+    "sponsorshipTypeLabel": "Tipo de Patrocínio de Interesse",
+    "sponsorshipTypePlaceholder": "Ex.: Platinum, Gold, Silver",
+    "sponsorsCta": "Enviar Inscrição"
+  }
+}

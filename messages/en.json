@@ -1,0 +1,176 @@
+{
+  "common": {
+    "BecomeSponsor": "Become Sponsor",
+    "Register": "Be the first to know!",
+    "comingSoon": "Coming Soon",
+    "eventName": "COLOMBIA WELLNESS WEEK 2025",
+    "eventTagline": "The Most Important Wellness Week in LATAM",
+    "eventDates": "Nov 12-14| Bogotá, Colombia",
+    "navHome": "Home",
+    "navAbout": "About",
+    "navContact": "Contact",
+    "footerText": "All rights reserved",
+    "footerDisclaimer": "A unique event positioning Colombia as the epicenter of wellness.",
+    "contactName": "Fabian Garzón, Co-founder",
+    "contactEmail": "info@colombiawellnessweek.com",
+    "contactWebsite": "www.colombiawellnessweek.com",
+    "contactSocial": "@ColombiaWellnessWeek",
+    "EnterEmail": "Enter your email",
+    "ourSponsors": "Our Sponsors",
+    "ourPartners": "Our Partners",
+    "heroTitle": "Colombia Wellness Week",
+    "heroSubtitle": "Nov 12–14 | Bogotá, Colombia",
+    "moreInformation": "More information",
+    "bienestar": {
+      "physical": "Physical Wellness",
+      "mental": "Mental Wellness",
+      "emotional": "Emotional Wellness",
+      "social": "Social Wellness",
+      "financial": "Financial Wellness",
+      "spiritual": "Spiritual Wellness",
+      "occupational": "Occupational Wellness",
+      "environmental": "Environmental Wellness"
+    }
+  },
+  "epicenter": {
+    "title": "COLOMBIA IS THE NEW ",
+    "titleHighlight": "WELLNESS EPICENTER",
+    "statsTitle": "Investment in Wellness by Country",
+    "stats1Number": "TOP 3",
+    "stats1Text": "in Latin America in wellness tourism",
+    "stats1Source": "(Global Wellness Institute, 2023)",
+    "stats2Number": "+500",
+    "stats2Text": "annual health and wellness events in the country",
+    "stats3Number": "30%",
+    "stats3Text": "Accelerated growth in wellness tourism and experiences",
+    "colombiaStat": "30%",
+    "mexicoStat": "25%",
+    "costaRicaStat": "20%",
+    "brasilStat": "15%",
+    "peruStat": "10%",
+    "foreignInvestment": "+30% of wellness investments in Colombia come from foreign capital."
+  },
+  "cities": {
+    "title": "PARTICIPATING CITIES",
+    "bogota": "Bogota"
+  },
+  "counter": {
+    "title": "THE MOST IMPORTANT WEEK OF WELLNESS IN LATIN AMERICA",
+    "assistants": "Assistants",
+    "assistantsText": "Entrepreneurs, investors, wellness and health experts.",
+    "allies": "Ecosystem allies",
+    "alliesText": "Wellness startups, investors, accelerators, government, corporations.",
+    "startups": "Wellness startups",
+    "startupsText": "From Latin America and Europe participating in the event.",
+    "years": "Years of experience",
+    "yearsText": "Inspiring entrepreneurs with connection formats and knowledge exchange."
+  },
+  "events": {
+    "march": "March",
+    "april": "April",
+    "june": "June",
+    "july": "July",
+    "september": "September",
+    "october": "October",
+    "november": "November"
+  },
+  "sections": {
+    "retreatsAndConferences": {
+      "title": "Retreats and Conferences",
+      "items": [
+        "Yoga and meditation retreats",
+        "Conferences with health and wellness experts",
+        "Networking with international investors"
+      ]
+    },
+    "startupsAndBusiness": {
+      "title": "Startups and Business",
+      "items": [
+        "Wellness startup demo days",
+        "International startup mission",
+        "Business matchmaking with investors"
+      ]
+    }
+  },
+  "tiers": {
+    "title": "SPONSORSHIP LEVELS",
+    "features": [
+      "Keynote Conference Slot (15 min)",
+      "Panel Participation",
+      "Logo on Main Stage and Branding",
+      "Logo on Web and App",
+      "VIP Passes (Dinner + Lounge)",
+      "Full Access Passes",
+      "Dedicated Social Media Posts",
+      "Mass Email to Database",
+      "Access to Attendee Database",
+      "Stand Size (m²)",
+      "Branding in Networking Areas"
+    ],
+    "packages": {
+      "diamond": {
+        "name": "Diamond",
+        "price": "$25K",
+        "values": ["✓", "✓", "Large", "Home", "10", "20", "5", "2", "✓", "18", "✓"]
+      },
+      "gold": {
+        "name": "Gold",
+        "price": "$15K",
+        "values": ["-", "✓", "Medium", "Home", "6", "15", "3", "1", "✓", "12", "✓"]
+      },
+      "silver": {
+        "name": "Silver",
+        "price": "$8K",
+        "values": ["-", "✓", "✓", "✓", "4", "10", "2", "1", "✓", "9", "-"]
+      },
+      "bronze": {
+        "name": "Bronze",
+        "price": "$5K",
+        "values": ["-", "-", "✓", "✓", "2", "5", "1", "-", "✓", "6", "-"]
+      },
+      "community": {
+        "name": "Community",
+        "price": "$2K",
+        "values": ["-", "-", "-", "✓", "2", "2", "-", "-", "✓", "3", "-"]
+      }
+    },
+    "note": "✓ = Included in the package"
+  },
+  "endSection": {
+    "title": "MAKING COLOMBIA THE WELLNESS EPICENTER IN LATIN AMERICA",
+    "description": "✨ Be part of the event that will position Colombia as the leading wellness destination in Latin America.",
+    "register": "Register"
+  },
+  "register": {
+    "registerTitle": "Register for Colombia Wellness Week 2025",
+    "registerSubtitle": "Fill out your details and be the first to hear the news.",
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "Your full name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "yourmail@example.com",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "1234567890",
+    "cityLabel": "City of Residence",
+    "cityPlaceholder": "New York",
+    "interestsLabel": "Wellness Interests",
+    "interestsPlaceholder": "Fitness, nutrition, mindfulness...",
+    "registerCta": "Register"
+  },
+  "sponsors": {
+    "sponsorsTitle": "Sponsor Registration",
+    "sponsorsSubtitle": "Complete the following information to be considered as a sponsor.",
+    "companyNameLabel": "Company Name",
+    "companyNamePlaceholder": "e.g., MyCompany Inc.",
+    "representativeNameLabel": "Representative Name",
+    "representativeNamePlaceholder": "e.g., John Doe",
+    "representativeRoleLabel": "Job Title",
+    "representativeRolePlaceholder": "e.g., Marketing Director",
+    "contactEmailLabel": "Contact Email",
+    "contactEmailPlaceholder": "email@mycompany.com",
+    "contactPhoneLabel": "Contact Phone",
+    "contactPhonePlaceholder": "11234567890",
+    "sponsorshipTypeLabel": "Type of Sponsorship Interested",
+    "sponsorshipTypePlaceholder": "e.g., Platinum, Gold, Silver",
+    "sponsorsCta": "Submit Application"
+  }
+}
