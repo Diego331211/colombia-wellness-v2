@@ -42,10 +42,10 @@ export async function POST(request: NextRequest) {
       data.sponsorshipType || "",
     ];
 
-    // Agregar fila al Sheet (usando pestaña de sponsors)
+    // Agregar fila al Sheet (usando Sheet2 para sponsors)
     await sheets.spreadsheets.values.append({
       spreadsheetId,
-      range: "Sponsors Colombia Wellness Week!A:G",
+      range: "Sheet2!A:G", // Ajusta el nombre de la pestaña si es diferente
       valueInputOption: "USER_ENTERED",
       requestBody: {
         values: [row],
@@ -60,14 +60,10 @@ export async function POST(request: NextRequest) {
       },
       { status: 200 }
     );
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error en API sponsors:", error);
-    console.error("Error details:", error.message, error.code);
     return NextResponse.json(
-      { 
-        error: "Error al procesar la solicitud",
-        details: error.message || "Unknown error"
-      },
+      { error: "Error al procesar la solicitud" },
       { status: 500 }
     );
   }

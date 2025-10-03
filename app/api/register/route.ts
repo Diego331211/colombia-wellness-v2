@@ -44,7 +44,7 @@ export async function POST(request: NextRequest) {
     // Agregar fila al Sheet
     await sheets.spreadsheets.values.append({
       spreadsheetId,
-      range: "Registros Colombia Wellness Week!A:F",
+      range: "Sheet1!A:F", // Ajusta el nombre de la pestaña si es diferente
       valueInputOption: "USER_ENTERED",
       requestBody: {
         values: [row],
@@ -57,14 +57,10 @@ export async function POST(request: NextRequest) {
       { message: "Registro exitoso. Nos pondremos en contacto pronto." },
       { status: 200 }
     );
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error en API register:", error);
-    console.error("Error details:", error.message, error.code);
     return NextResponse.json(
-      { 
-        error: "Error al procesar el registro",
-        details: error.message || "Unknown error"
-      },
+      { error: "Error al procesar el registro" },
       { status: 500 }
     );
   }

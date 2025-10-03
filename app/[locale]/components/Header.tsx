@@ -19,7 +19,7 @@ export default function Header() {
       <div className="container mx-auto flex items-center gap-4 px-10">
         {/* Ícono de Instagram con enlace */}
         <a
-          href="https://www.instagram.com/colombiawellnessweek?igsh=MWo0ZWtlcDlxZ2NvMQ%3D%3D&utm_source=qr"
+          href="https://www.instagram.com/colombiawellnessweek/"
           target="_blank"
           rel="noopener noreferrer"
           title="Instagram"
@@ -32,7 +32,7 @@ export default function Header() {
 
         {/* Ícono de TikTok con enlace */}
         <a
-          href="https://www.tiktok.com/@colombiawellnessweek2025?_t=ZS-907YDiSMJWq&_r=1"
+          href="https://www.tiktok.com/@colombiawellnessweek"
           target="_blank"
           rel="noopener noreferrer"
           title="TikTok"
@@ -45,7 +45,7 @@ export default function Header() {
 
         {/* Ícono de LinkedIn con enlace */}
         <a
-          href="https://www.linkedin.com/company/colombia-wellness-week/?viewAsMember=true"
+          href="https://www.linkedin.com/company/colombia-wellness-week/"
           target="_blank"
           rel="noopener noreferrer"
           title="LinkedIn"
@@ -58,7 +58,7 @@ export default function Header() {
 
         {/* Ícono de correo con enlace */}
         <a
-          href="mailto:Colombiawellnesseeek2025@gmail.com"
+          href="mailto:info@colombiawellnessweek.co"
           title="Enviar correo"
         >
           <FontAwesomeIcon
