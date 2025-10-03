@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import DataSections from "./components/datasections";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       {/* Contenido principal */}
       <div className="relative">
         <Hero />
+        <DataSections />
         {/* Aquí irán los demás componentes */}
       </div>
     </>
