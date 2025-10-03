@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { motion } from "framer-motion"
+import Image from "next/image";
+import { motion } from "framer-motion";
 
 interface CityCardProps {
-  name: string
-  image: string
+  name: string;
+  image: string;
 }
 
 export default function CityCard({ name, image }: CityCardProps) {
@@ -31,5 +31,5 @@ export default function CityCard({ name, image }: CityCardProps) {
         </div>
       </div>
     </motion.div>
-  )
+  );
 }

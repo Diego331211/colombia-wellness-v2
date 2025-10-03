@@ -28,14 +28,8 @@ export default function DataSections() {
               text={t("stats1Text")}
               source={t("stats1Source")}
             />
-            <StatsCard
-              number={t("stats2Number")}
-              text={t("stats2Text")}
-            />
-            <StatsCard
-              number={t("stats3Number")}
-              text={t("stats3Text")}
-            />
+            <StatsCard number={t("stats2Number")} text={t("stats2Text")} />
+            <StatsCard number={t("stats3Number")} text={t("stats3Text")} />
           </div>
 
           {/* Subtítulo: Inversión en Bienestar por País */}

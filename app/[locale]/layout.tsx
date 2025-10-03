@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "COLOMBIA WELLNESS WEEK",
   description: "La Semana Más Importante del Bienestar en Latinoamérica",
   icons: {
-    icon: '/favicon.ico',
+    icon: "/favicon.ico",
   },
 };
 

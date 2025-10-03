@@ -20,7 +20,9 @@ export default function EndSection() {
           transition={{ duration: 0.6 }}
         >
           <a href={`/${locale}/register`}>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">{t("title")}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              {t("title")}
+            </h2>
           </a>
           <p className="text-xl mb-8">{t("description")}</p>
           <MyButton

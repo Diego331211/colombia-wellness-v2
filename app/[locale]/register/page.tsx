@@ -1,50 +1,50 @@
-'use client';
+"use client";
 
-import { useTranslations } from 'next-intl';
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import { useRouter } from 'next/navigation';
+import { useTranslations } from "next-intl";
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 export default function RegisterSection() {
-  const t = useTranslations('register');
-  const [fullName, setFullName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [city, setCity] = useState('');
-  const [interests, setInterests] = useState('');
+  const t = useTranslations("register");
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [city, setCity] = useState("");
+  const [interests, setInterests] = useState("");
   const [loading, setLoading] = useState(false);
-  const [message, setMessage] = useState('');
-  const router = useRouter()
+  const [message, setMessage] = useState("");
+  const router = useRouter();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    setMessage('');
+    setMessage("");
 
     const data = { fullName, email, phone, city, interests };
 
     try {
-      const response = await fetch('/api/register', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data)
+      const response = await fetch("/api/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
       });
 
       if (!response.ok) {
-        throw new Error('Error al enviar datos');
+        throw new Error("Error al enviar datos");
       }
 
       const result = await response.json();
-      setMessage(result.message || 'Formulario enviado exitosamente.');
-      setFullName('');
-      setEmail('');
-      setPhone('');
-      setCity('');
-      setInterests('');
-      setTimeout(() => router.push('/'), 2000);
+      setMessage(result.message || "Formulario enviado exitosamente.");
+      setFullName("");
+      setEmail("");
+      setPhone("");
+      setCity("");
+      setInterests("");
+      setTimeout(() => router.push("/"), 2000);
     } catch (error) {
-      console.error('Error al enviar datos:', error);
-      setMessage('Ocurrió un error al enviar los datos.');
+      console.error("Error al enviar datos:", error);
+      setMessage("Ocurrió un error al enviar los datos.");
     } finally {
       setLoading(false);
     }
@@ -68,7 +68,7 @@ export default function RegisterSection() {
           transition={{
             duration: 15,
             repeat: Infinity,
-            repeatType: 'reverse',
+            repeatType: "reverse",
           }}
         />
         <motion.div
@@ -81,7 +81,7 @@ export default function RegisterSection() {
           transition={{
             duration: 18,
             repeat: Infinity,
-            repeatType: 'reverse',
+            repeatType: "reverse",
           }}
         />
         <motion.div
@@ -94,7 +94,7 @@ export default function RegisterSection() {
           transition={{
             duration: 12,
             repeat: Infinity,
-            repeatType: 'reverse',
+            repeatType: "reverse",
           }}
         />
       </div>
@@ -102,24 +102,24 @@ export default function RegisterSection() {
       {/* Contenido del formulario */}
       <div className="relative z-10 max-w-4xl mx-auto">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-center">
-          {t('registerTitle')}
+          {t("registerTitle")}
         </h2>
 
         <p className="text-center mb-12 text-base sm:text-lg lg:text-xl">
-          {t('registerSubtitle')}
+          {t("registerSubtitle")}
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
             <label htmlFor="fullName" className="block mb-1 font-semibold">
-              {t('fullNameLabel')}
+              {t("fullNameLabel")}
             </label>
             <input
               id="fullName"
               type="text"
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
-              placeholder={t('fullNamePlaceholder')}
+              placeholder={t("fullNamePlaceholder")}
               className="w-full border border-gray-300 rounded-md px-4 py-2"
               required
             />
@@ -127,14 +127,14 @@ export default function RegisterSection() {
 
           <div>
             <label htmlFor="email" className="block mb-1 font-semibold">
-              {t('emailLabel')}
+              {t("emailLabel")}
             </label>
             <input
               id="email"
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder={t('emailPlaceholder')}
+              placeholder={t("emailPlaceholder")}
               className="w-full border border-gray-300 rounded-md px-4 py-2"
               required
             />
@@ -142,41 +142,41 @@ export default function RegisterSection() {
 
           <div>
             <label htmlFor="phone" className="block mb-1 font-semibold">
-              {t('phoneLabel')}
+              {t("phoneLabel")}
             </label>
             <input
               id="phone"
               type="tel"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-              placeholder={t('phonePlaceholder')}
+              placeholder={t("phonePlaceholder")}
               className="w-full border border-gray-300 rounded-md px-4 py-2"
             />
           </div>
 
           <div>
             <label htmlFor="city" className="block mb-1 font-semibold">
-              {t('cityLabel')}
+              {t("cityLabel")}
             </label>
             <input
               id="city"
               type="text"
               value={city}
               onChange={(e) => setCity(e.target.value)}
-              placeholder={t('cityPlaceholder')}
+              placeholder={t("cityPlaceholder")}
               className="w-full border border-gray-300 rounded-md px-4 py-2"
             />
           </div>
 
           <div>
             <label htmlFor="interests" className="block mb-1 font-semibold">
-              {t('interestsLabel')}
+              {t("interestsLabel")}
             </label>
             <textarea
               id="interests"
               value={interests}
               onChange={(e) => setInterests(e.target.value)}
-              placeholder={t('interestsPlaceholder')}
+              placeholder={t("interestsPlaceholder")}
               className="w-full border border-gray-300 rounded-md px-4 py-2"
               rows={3}
             />
@@ -188,12 +188,18 @@ export default function RegisterSection() {
               disabled={loading}
               className="bg-orange-400 hover:bg-blue-200 hover:text-black border shadow-md shadow-gray-500 border-black text-white px-8 py-3 rounded-full text-base sm:text-lg font-semibold transition"
             >
-              {loading ? 'Enviando...' : t('registerCta')}
+              {loading ? "Enviando..." : t("registerCta")}
             </button>
           </div>
           {message && (
             <div className="text-center mt-4">
-              <p className={message.includes('error') ? 'text-red-600' : 'text-green-600'}>{message}</p>
+              <p
+                className={
+                  message.includes("error") ? "text-red-600" : "text-green-600"
+                }
+              >
+                {message}
+              </p>
             </div>
           )}
         </form>
