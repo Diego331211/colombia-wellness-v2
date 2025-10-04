@@ -12,8 +12,8 @@
     "footerText": "All rights reserved",
     "footerDisclaimer": "A unique event positioning Colombia as the epicenter of wellness.",
     "contactName": "Fabian Garzón, Co-founder",
-    "contactEmail": "info@colombiawellnessweek.com",
-    "contactWebsite": "www.colombiawellnessweek.com",
+    "contactEmail": "contacto@colombiawellnessweek.co",
+    "contactWebsite": "www.colombiawellnessweek.co",
     "contactSocial": "@ColombiaWellnessWeek",
     "EnterEmail": "Enter your email",
     "ourSponsors": "Our Sponsors",
@@ -111,12 +111,36 @@
       "diamond": {
         "name": "Diamond",
         "price": "$25K",
-        "values": ["✓", "✓", "Large", "Home", "10", "20", "5", "2", "✓", "18", "✓"]
+        "values": [
+          "✓",
+          "✓",
+          "Large",
+          "Home",
+          "10",
+          "20",
+          "5",
+          "2",
+          "✓",
+          "18",
+          "✓"
+        ]
       },
       "gold": {
         "name": "Gold",
         "price": "$15K",
-        "values": ["-", "✓", "Medium", "Home", "6", "15", "3", "1", "✓", "12", "✓"]
+        "values": [
+          "-",
+          "✓",
+          "Medium",
+          "Home",
+          "6",
+          "15",
+          "3",
+          "1",
+          "✓",
+          "12",
+          "✓"
+        ]
       },
       "silver": {
         "name": "Silver",

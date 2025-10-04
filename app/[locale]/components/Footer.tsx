@@ -46,10 +46,10 @@ export default function Footer() {
         <div className="space-y-2 text-sm">
           <p className="text-gray-600">
             <a
-              href="mailto:colombiawellnessweek2025@gmail.com"
+              href="mailto:contacto@colombiawellnessweek.co"
               className="hover:text-black"
             >
-              colombiawellnessweek2025@gmail.com
+              contacto@colombiawellnessweek.co
             </a>
           </p>
         </div>
