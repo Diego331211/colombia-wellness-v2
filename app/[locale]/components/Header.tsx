@@ -32,7 +32,7 @@ export default function Header() {
 
         {/* Ícono de TikTok con enlace */}
         <a
-          href="https://www.tiktok.com/@colombiawellnessweek"
+          href="https://www.tiktok.com/@colombiawellnessweek2025"
           target="_blank"
           rel="noopener noreferrer"
           title="TikTok"
