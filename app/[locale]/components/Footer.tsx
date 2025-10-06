@@ -25,7 +25,7 @@ export default function Footer() {
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a
-            href="https://www.tiktok.com/@colombiawellnessweek"
+            href="https://www.tiktok.com/@colombiawellnessweek2025"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 hover:text-gray-900"
@@ -33,7 +33,7 @@ export default function Footer() {
             <FontAwesomeIcon icon={faTiktok} />
           </a>
           <a
-            href="https://twitter.com/ColombiaWellnes"
+            href="https://x.com/ColWellness25"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 hover:text-gray-900"
