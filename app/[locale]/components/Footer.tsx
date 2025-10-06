@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
   faTiktok,
-  faTwitter,
+  faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
@@ -17,7 +17,7 @@ export default function Footer() {
         {/* Íconos de Redes Sociales */}
         <div className="flex space-x-6 text-2xl">
           <a
-            href="https://instagram.com/ColombiaWellnessWeek"
+            href="https://www.instagram.com/colombiawellnessweek/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 hover:text-gray-900"
@@ -25,7 +25,7 @@ export default function Footer() {
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a
-            href="https://tiktok.com/@ColombiaWellnessWeek"
+            href="https://www.tiktok.com/@colombiawellnessweek"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 hover:text-gray-900"
@@ -38,7 +38,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="text-gray-700 hover:text-gray-900"
           >
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faXTwitter} />
           </a>
         </div>
 
@@ -46,10 +46,10 @@ export default function Footer() {
         <div className="space-y-2 text-sm">
           <p className="text-gray-600">
             <a
-              href="mailto:contacto@colombiawellnessweek.co"
+              href="mailto:info@colombiawellnessweek.co"
               className="hover:text-black"
             >
-              contacto@colombiawellnessweek.co
+              info@colombiawellnessweek.co
             </a>
           </p>
         </div>
