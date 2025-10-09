@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import BlockedPopup from "../../components/BlockedPopup";
 import DataSections from "./components/datasections";
 import CitySection from "./components/citysection";
 import CounterSection from "./components/counter-section";
@@ -7,6 +8,9 @@ import SponsorshipTiers from "./components/sponsor-ships";
 import EndSection from "./components/end";
 
 export default function Home() {
+  // Cambia esto a true para mostrar el popup de página bloqueada
+  const isBlocked = true;
+
   return (
     <>
       {/* Fondo de imagen */}
@@ -17,6 +21,9 @@ export default function Home() {
           className="w-full h-full object-cover"
         />
       </div>
+
+      {/* Popup bloqueante por falta de pago */}
+      <BlockedPopup visible={isBlocked} />
 
       {/* Contenido principal */}
       <div className="relative">
