@@ -9,7 +9,7 @@ import EndSection from "./components/end";
 
 export default function Home() {
   // Cambia esto a true para mostrar el popup de página bloqueada
-  const isBlocked = false;
+  const isBlocked = true;
 
   return (
     <>
