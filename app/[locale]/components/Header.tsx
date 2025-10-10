@@ -57,7 +57,7 @@ export default function Header() {
         </a>
 
         {/* Ícono de correo con enlace */}
-        <a href="contacto@colombiawellnessweek.co" title="Enviar correo">
+        <a href="mailto:contacto@colombiawellnessweek.co" title="Enviar correo">
           <FontAwesomeIcon
             icon={faEnvelope}
             className="h-7 hover:text-orange-500 transition-colors"
