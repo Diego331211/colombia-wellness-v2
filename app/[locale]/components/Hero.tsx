@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { useParams, useRouter } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import logo from "@/public/images/Logo-16.svg";
+import logo from "@/public/images/Logo-16.png";
 import bienestarIcons from "@/data/bienestarIcons";
 
 export default function Hero() {

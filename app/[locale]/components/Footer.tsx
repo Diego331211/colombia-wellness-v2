@@ -5,8 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
   faTiktok,
-  faXTwitter,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   const t = useTranslations("common");
@@ -16,29 +17,43 @@ export default function Footer() {
       <div className="container mx-auto px-6 text-center flex flex-col items-center space-y-6">
         {/* Íconos de Redes Sociales */}
         <div className="flex space-x-6 text-2xl">
+          {/* Instagram */}
           <a
             href="https://www.instagram.com/colombiawellnessweek/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-700 hover:text-gray-900"
+            title="Instagram"
+            className="text-gray-700 hover:text-orange-500 transition-colors"
           >
-            <FontAwesomeIcon icon={faInstagram} />
+            <FontAwesomeIcon icon={faInstagram} className="h-7" />
           </a>
+          {/* TikTok */}
           <a
             href="https://www.tiktok.com/@colombiawellnessweek2025"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-700 hover:text-gray-900"
+            title="TikTok"
+            className="text-gray-700 hover:text-orange-500 transition-colors"
           >
-            <FontAwesomeIcon icon={faTiktok} />
+            <FontAwesomeIcon icon={faTiktok} className="h-7" />
           </a>
+          {/* LinkedIn */}
           <a
-            href="https://x.com/ColWellness25"
+            href="https://www.linkedin.com/company/colombia-wellness-week/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-700 hover:text-gray-900"
+            title="LinkedIn"
+            className="text-gray-700 hover:text-orange-500 transition-colors"
           >
-            <FontAwesomeIcon icon={faXTwitter} />
+            <FontAwesomeIcon icon={faLinkedin} className="h-7" />
+          </a>
+          {/* Correo */}
+          <a
+            href="mailto:contacto@colombiawellnessweek.co"
+            title="Enviar correo"
+            className="text-gray-700 hover:text-orange-500 transition-colors"
+          >
+            <FontAwesomeIcon icon={faEnvelope} className="h-7" />
           </a>
         </div>
 
@@ -46,10 +61,10 @@ export default function Footer() {
         <div className="space-y-2 text-sm">
           <p className="text-gray-600">
             <a
-              href="mailto:info@colombiawellnessweek.co"
+              href="mailto:contacto@colombiawellnessweek.co"
               className="hover:text-black"
             >
-              info@colombiawellnessweek.co
+              contacto@colombiawellnessweek.co
             </a>
           </p>
         </div>

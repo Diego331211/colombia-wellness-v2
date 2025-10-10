@@ -4,7 +4,7 @@ interface BlockedPopupProps {
   visible?: boolean;
 }
 
-const BlockedPopup: React.FC<BlockedPopupProps> = ({ visible = true }) => {
+const BlockedPopup: React.FC<BlockedPopupProps> = ({ visible = false }) => {
   if (!visible) return null;
   return (
     <div
@@ -54,12 +54,6 @@ const BlockedPopup: React.FC<BlockedPopupProps> = ({ visible = true }) => {
           Por favor comunícate con tu proveedor para continuar disfrutando del
           servicio.
         </p>
-        <div
-          className="mt-2 text-base font-semibold tracking-wide"
-          style={{ color: "#FAECD4", opacity: 0.85 }}
-        >
-          Botopia Technology SAS
-        </div>
       </div>
     </div>
   );
