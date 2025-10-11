@@ -5,6 +5,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Script from "next/script";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
@@ -43,6 +44,20 @@ export default async function RootLayout(props: {
       <body className={dmSans.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
+          {/* Microsoft Clarity Script */}
+          <Script
+            id="clarity-script"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+                (function(c,l,a,r,i,t,y){
+                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+                })(window, document, "clarity", "script", "tokkpa7dnh");
+              `,
+            }}
+          />
           {children}
           <Footer />
         </NextIntlClientProvider>
