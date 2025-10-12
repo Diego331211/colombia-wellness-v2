@@ -3,9 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Script from "next/script";
+import dynamic from "next/dynamic";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
@@ -18,6 +16,12 @@ export const metadata: Metadata = {
 };
 
 const locales = ["en", "es", "pt"];
+
+import type { ComponentType } from "react";
+const ClientProviders = dynamic(
+  () => import("./ClientProviders").then((m) => m.default),
+  { ssr: false }
+);
 
 export default async function RootLayout(props: {
   children: React.ReactNode;
@@ -42,25 +46,9 @@ export default async function RootLayout(props: {
   return (
     <html lang={locale} className="relative">
       <body className={dmSans.className}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header />
-          {/* Microsoft Clarity Script */}
-          <Script
-            id="clarity-script"
-            strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-              __html: `
-                (function(c,l,a,r,i,t,y){
-                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-                })(window, document, "clarity", "script", "tokkpa7dnh");
-              `,
-            }}
-          />
+        <ClientProviders locale={locale} messages={messages}>
           {children}
-          <Footer />
-        </NextIntlClientProvider>
+        </ClientProviders>
       </body>
     </html>
   );
