@@ -1,3 +1,4 @@
+"use client";
 import Hero from "./components/Hero";
 import BlockedPopup from "../../components/BlockedPopup";
 import DataSections from "./components/datasections";
@@ -6,6 +7,17 @@ import CounterSection from "./components/counter-section";
 import EventTimeline from "./components/timeline";
 import SponsorshipTiers from "./components/sponsor-ships";
 import EndSection from "./components/end";
+import { CookieConsent } from "../../components/CookieConsent";
+
+function CookieConsentWrapper() {
+  return (
+    <CookieConsent
+      variant="default"
+      onAcceptCallback={() => console.log("Accepted")}
+      onDeclineCallback={() => console.log("Declined")}
+    />
+  );
+}
 
 export default function Home() {
   // Cambia esto a true para mostrar el popup de página bloqueada
@@ -35,6 +47,7 @@ export default function Home() {
         <SponsorshipTiers />
         <EndSection />
       </div>
+        <CookieConsentWrapper />
     </>
   );
 }

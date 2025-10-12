@@ -7,7 +7,6 @@ import { useEffect } from "react";
 import posthog from "posthog-js";
 import { ErrorBoundary } from "../../components/ErrorBoundary";
 
-
 export default function ClientProviders({
   children,
   locale,
@@ -48,7 +47,6 @@ export default function ClientProviders({
       />
       {/* Ejemplo: botón para lanzar error y probar integración */}
       <ErrorBoundary componentName="Layout" propsToLog={{ locale }}>
-
         {children}
       </ErrorBoundary>
       <Footer />
