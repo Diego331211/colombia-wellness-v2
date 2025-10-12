@@ -6,7 +6,7 @@ import Script from "next/script";
 import { useEffect } from "react";
 import posthog from "posthog-js";
 import { ErrorBoundary } from "../../components/ErrorBoundary";
-import { ThrowErrorButton } from "../../components/ThrowErrorButton";
+
 
 export default function ClientProviders({
   children,
@@ -48,7 +48,7 @@ export default function ClientProviders({
       />
       {/* Ejemplo: botón para lanzar error y probar integración */}
       <ErrorBoundary componentName="Layout" propsToLog={{ locale }}>
-        <ThrowErrorButton />
+
         {children}
       </ErrorBoundary>
       <Footer />
