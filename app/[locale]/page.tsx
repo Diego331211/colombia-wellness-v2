@@ -47,7 +47,7 @@ export default function Home() {
         <SponsorshipTiers />
         <EndSection />
       </div>
-        <CookieConsentWrapper />
+      <CookieConsentWrapper />
     </>
   );
 }

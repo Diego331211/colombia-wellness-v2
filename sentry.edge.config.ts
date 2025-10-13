@@ -1,4 +1,3 @@
-// sentry.server.config.ts
 import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({
@@ -6,3 +5,5 @@ Sentry.init({
   tracesSampleRate: 1.0,
   enabled: process.env.NODE_ENV === "production",
 });
+
+export {};

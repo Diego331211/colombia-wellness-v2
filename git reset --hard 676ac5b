@@ -1,0 +1,27 @@
+[33meca0b73[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Remove .env with secrets from repo
+[33m46d28ab[m Quité el botón de errores de prueba
+[33m736caaa[m Conexión terminada con posthog y sentry
+[33m676ac5b[m[33m ([m[1;31morigin/main[m[33m)[m Implementación de botón de cookies
+[33mf9c045b[m Quitar el botón de prueba de errores
+[33m0ea5664[m COnfiguración de posthog, Sentry y Clarity
+[33mc42b1c6[m INsersión de clarity en CWW
+[33maeec0b1[m CAmbios del correo
+[33m0c95e9f[m Pagina habilitada
+[33m5986a48[m Quitar el nombre de botopia del banner
+[33mc18fb8b[m Mostrar popup bloqueado: activar isBlocked
+[33md9b9ef0[m Página Activa
+[33m27be5d1[m Página activa
+[33m2453580[m Agregar popup de página bloqueada
+[33m43ddea6[m CAmbios de link
+[33me1484a2[m CAmbios de lin ks de redes sociales
+[33m9de3a0c[m Cambio del logo de twitter a X
+[33m9181497[m Cambio de correos
+[33m34f1bde[m feat: actualizar enlaces de redes sociales y configurar HTTPS seguro
+[33m7b4d1f2[m Fix Google Sheets tab names and add error logging
+[33m5105c92[m Update favicon configuration
+[33m62e51be[m Add Google Sheets integration with googleapis
+[33m5b6d6a4[m Add register and sponsors pages with API routes
+[33m2478c96[m Add all main components: CitySection, CounterSection, Timeline, SponsorshipTiers, EndSection - Complete landing page
+[33mf8cc5d2[m Add DataSections component with stats and country comparison
+[33m8c056dc[m Initial commit - Colombia Wellness Week v2 base setup
+[33mb93b7ed[m Initial commit from Create Next App
