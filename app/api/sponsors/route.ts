@@ -42,10 +42,10 @@ export async function POST(request: NextRequest) {
       data.sponsorshipType || "",
     ];
 
-    // Agregar fila al Sheet (usando Sheet2 para sponsors)
+    // Agregar fila al Sheet
     await sheets.spreadsheets.values.append({
       spreadsheetId,
-      range: "Sheet2!A:G", // Ajusta el nombre de la pestaña si es diferente
+      range: "Sponsors Colombia Wellness Week!A:G",
       valueInputOption: "USER_ENTERED",
       requestBody: {
         values: [row],

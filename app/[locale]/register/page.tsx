@@ -30,11 +30,15 @@ export default function RegisterSection() {
         body: JSON.stringify(data),
       });
 
+      const result = await response.json();
+
       if (!response.ok) {
-        throw new Error("Error al enviar datos");
+        // Mostrar el mensaje de error específico del servidor
+        const errorMessage = result.error || "Error al enviar datos";
+        const errorDetails = result.details ? ` (${result.details})` : "";
+        throw new Error(errorMessage + errorDetails);
       }
 
-      const result = await response.json();
       setMessage(result.message || "Formulario enviado exitosamente.");
       setFullName("");
       setEmail("");
@@ -44,7 +48,8 @@ export default function RegisterSection() {
       setTimeout(() => router.push("/"), 2000);
     } catch (error) {
       console.error("Error al enviar datos:", error);
-      setMessage("Ocurrió un error al enviar los datos.");
+      const errorMessage = error instanceof Error ? error.message : "Ocurrió un error al enviar los datos.";
+      setMessage(errorMessage);
     } finally {
       setLoading(false);
     }
